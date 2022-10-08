@@ -1,19 +1,19 @@
 describe('set', () => {
-  beforeAll(() => {
-    console.log('beforeAll');
-  });
+  // beforeAll(() => {
+  //   console.log('beforeAll');
+  // });
 
-  beforeEach(() => {
-    console.log('beforeEach');
-  });
+  // beforeEach(() => {
+  //   console.log('beforeEach');
+  // });
 
-  afterAll(() => {
-    console.log('afterAll');
-  });
+  // afterAll(() => {
+  //   console.log('afterAll');
+  // });
 
-  afterEach(() => {
-    console.log('afterEach');
-  });
+  // afterEach(() => {
+  //   console.log('afterEach');
+  // });
 
   test('case 1', () => {
     expect(1 + 1).toBe(2);
